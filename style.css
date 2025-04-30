@@ -1,0 +1,304 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url('bg.png');
+        }
+
+header{
+    
+    position: fixed;
+    top: 0px;
+    padding: 12px 15px;
+    display:flex;
+    justify-content: space-between;
+    background-color: #e3325c;
+    box-shadow: 0px 0px 15px #fb9aba;
+    width: 100%;
+}
+
+.warna-coklat{
+    color: #3e311d;
+}
+.warna-pink{
+    color: #f980a9;
+    line-height:20px
+}
+.translation{
+    color: #a37a84;
+}
+nav a {
+    font-family:  'The Aesthetic Essential';
+    display: flex;
+    padding: 10px 15px;
+    text-decoration:none;
+    color:bisque;
+    float: right;
+}
+.home h2{
+    padding-top: 100px;
+    text-align: center;
+    font-size: 75px;
+    color: #3e311d;
+    line-height:1px;
+    text-decoration: none;
+}
+.large-text{
+    padding-top: 100px;
+    font-family:  'The Aesthetic Essential';
+    text-align: center;
+    font-size: 75px;
+    color: #3e311d; 
+    line-height:1px;
+}
+nav a:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    border: #863d51 4px outset;
+    transition: 0.7s;
+    background-color: #ee3e68;
+    text-decoration: none;
+}
+.harga {
+    background-color: #a92a48;
+    cursor: pointer;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    width: 130px ;
+    height: 15px ;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border: #924459 4px inset;
+  }
+  .shop-now{
+    text-decoration: none;
+    color: white;
+  }
+  .harga:hover{
+    background-color: #e3325c;
+    text-decoration: none;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    border: #863d51 4px outset;
+    transition: 0.7s;
+  }
+.banner{
+    text-shadow: 0px 0px 10px #fb9aba;
+    padding-right: 20px;
+    float:left;
+    color:white;
+    font-family: 'The Aesthetic Essential', sans-serif;
+    font-size: xx-large;
+}
+.home{
+    text-align: center;
+    margin-top: 20px;
+    font-family: Helvetica;
+    
+}
+.home p{
+    
+    font-size: 18px;
+}
+.home h3{
+    font-size: 25px;
+    
+}
+.home li{
+    text-decoration: none;
+}
+.about{
+    padding-left: 200px;
+    text-align: left;
+    margin-top: 20px;
+    font-family: Helvetica;
+    
+}
+.about p{
+    
+    font-size: 18px;
+}
+.about h3{
+    font-size: 25px;
+}
+.about h2{
+    padding-top: 100px;
+    text-align: left;
+    font-size: 75px;
+    color: #3e311d;
+    line-height:1px;
+}
+.li{
+    text-decoration: none;
+    color:aquamarine;
+}
+
+.product {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.car{
+    margin-left: 180px;
+    width:200px; 
+    margin:10px; 
+    background-color: #ffccd6;
+    border-radius: 35px;
+    height: 540px; 
+    box-shadow: 0 0 200px #f86d7c; 
+    padding: 10px; 
+    text-align: center;
+    border: #ffffff 4px solid;
+}
+.car img{
+    box-shadow: 0 0 200px #ffffff; 
+    width:200px;
+}
+.car li{
+    text-align: left;
+}
+.card{
+    text-align: center;
+    margin-left: 80px;
+    margin-top: 90px;
+    position: relative;
+    width: 250px;
+    height: 260px;
+    box-shadow: 0 0 5px;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: 0.5s;
+    scale: 1.4;
+}
+
+
+.card .gambar{
+    position: absolute;
+    width: 100%;
+}
+
+.card:hover .gambar img{
+    scale: 1.2;
+    filter:grayscale(70%);
+    filter:blur(100%);
+    transition: 0.5s;
+}
+
+.card .gambar .img{
+    width: 100%;
+}
+
+.card .deskripsi{
+    font-family: 'The Aesthetic Essential', sans-serif;
+    position: absolute;
+    top: 390px;
+    padding: 0px 10px;
+    transition: 0.5s;
+}
+
+.card:hover .deskripsi{
+    top: 0px;
+    transition: 0.5s;
+}
+
+.card .deskripsi a{
+    text-decoration: none;
+    background-color: black;
+    color: aliceblue;
+    padding: 5px 10px;
+}
+.card .deskripsi a:hover{
+    background-color: rgb(150, 128, 135);
+    transition: 0.5s;
+    filter: drop-shadow(20%);
+}
+
+.deskripsi:hover{
+    color: rgb(255, 232, 246);
+}
+
+button{
+    cursor: pointer;
+    margin:5px;
+}
+.nav2{
+    nav {
+        margin-top: -12px;
+        font-family:  'The Aesthetic Essential';
+        height: 100%;
+        width: 160px;
+        
+        position: fixed;
+        justify-content: space-between;
+        background-color: #ee3e68;
+        border: #e3325c 8px outset;
+        
+}
+
+    nav a {
+        
+        text-decoration: none;
+        font-size: 23px;
+        justify-content: space-between;
+        background-color: #e3325c;
+        padding: 5px;
+        color: #ffffff;
+        height:30px;
+}
+    nav a:hover{
+    background-color: #e3325c;
+    text-decoration: none;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    border: #863d51 4px outset;
+    transition: 0.7s;
+    }
+}
+.p{
+    font-size: 30px;
+    color: bisque;
+    
+}
+.nav2 .pita{
+    padding: 12px 30px;
+    width: 180px;
+}
+.nav2 .gambarkomm{
+    padding: 0px 1100px;
+    height: 50px;
+}
+
+footer{
+    
+    background-color: #b78a9b;
+    height: 100px;
+    border: #924459 4px dashed;
+}
+footer .medsos{
+    
+    padding-top: 10px;
+}
+footer .medsos a{
+    color: rgb(79, 80, 143);
+    font-size: 20px;
+    padding: 5px 20 px;
+}
+.footer a:hover{
+    transition: 0.2s;
+    background-color:#fbfd81;
+    color: blanchedalmond;
+    text-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+.email{
+    color: #880d12;
+    font-family: 'Helvetica';
+    line-height: 1px;
+    margin-left: 200px;
+    padding: -12px -30px;
+}
+.email img{
+    width: 30px;
+}
+footer .li{
+    line-height: 20px;
+}
